@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="mono">
+
+
+
+
+
+    <style>
+
+        .mono{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        main > div{
+            max-width: 1280px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 2.5rem;
+            padding: 1.25rem;
+            border: 1px solid gray;
+            border-radius: 10px;
+        }
+
+        main > div > h1{
+            font-size: 1.25rem;
+            line-height: 1.75rem;
+            font-weight: 700;
+        }
+
+        main > div > p{
+            color: rgb(187 187 187 / var(--tw-text-opacity));
+            margin-top: 1.25rem;
+        }
+
+
+
+
+    </style>
+
+
+
+
+
+
+
+
+
+    
+    <header>
+
+        <nav class="md:flex md:flex-row justify-around mt-5 flex flex-col px-5 md:px-0">
+    
+            <button class="btn bg-[#B4F461] font-semibold text-xl px-8" id="blog-b">
+                Home
+            </button>
+        
+            <div class="flex items-center justify-center mt-5 md:mt-0">
+        
+                <img src="./assets/logo.png" alt="">
+        
+                <p>Donate Bangladesh</p>
+        
+            </div>
+        
+        
+        
+            <div class="flex items-center gap-2 justify-center md:mt-0 mt-5">
+        
+                <img src="./assets/coin.png" alt="">
+        
+                <div class="flex gap-1">
+        
+                    <p id="balance-b">5500</p>
+                    <p>BDT</p>
+        
+                </div>
+        
+            </div>
+    
+        </nav>
+
+
+
+        <main class="px-5 md:px-0">
+
+            
+
+            <h1 class="text-center mt-20 text-3xl font-bold">Important FAQ</h1>
+
+            
+
+
+            <div class="">
+
+                <h1>What is Document Object Model (DOM)?</h1>
+
+                <p><b>Answer :</b> DOM means "Document Object Model" <br>
+                    It represents the page so that programs can change the document structure, style, and content.
+                </p>
+
+            </div>
+
+            <div class="">
+
+                <h1>How do you select an element from the DOM?</h1>
+
+                <p><b>Answer :</b> 
+                
+                    I use document.getElementsById('') to select an element from the DOM.
+
+                </p>
+
+            </div>
+
+
+
+            <div class="">
+
+                <h1>What is event delegation in the context of the DOM ,and why is it useful?</h1>
+
+                <p><b>Answer :</b> 
+                
+                    Event delegation refers to the process of using event propagation (bubbling) to handle events at a higher level in the DOM than the element on which the event originated. It allows us to attach a single event listener for elements that exist now or in the future.
+</p>
+
+            </div>
+
+
+            <div class="">
+
+                <h1>What is event delegation in the context of the DOM ,and why is it useful?</h1>
+
+                <p><b>Answer :</b> 
+                    
+                    I use the event handler method. I can change the atrributes and styles of html and css using DOM.
+
+                </p>
+
+            </div>
+
+
+        </main>
+
+
+    <script src="./main.js"></script>
+    <script src="./blog.js"></script>
+    
+
+</body>
+</html>
